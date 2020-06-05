@@ -18,20 +18,26 @@
 
 <!-- Navbar -->
 
-<nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #3a3f3f;">
+<nav class="navbar navbar-expand-md navbar-dark navbar__navbar" style="background-color: #3a3f3f;">
 	<button class="navbar-toggler" data-toggle="collapse" data-targer="#collapse_target">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
-	<a href="" class="navbar-brand nav__logo pl-5">
+	<a href="index.html" class="navbar-brand nav__logo pl-5">
 		<img src="img/logo_main.png" class="navbar__logo" alt="">
 	</a>
 
 	<div class="collapse navbar-collapse">
 		<ul class="navbar-nav ml-auto pr-5">
-			<li class="nav-item nav__item">
-				<a href="" class="nav-link"><p class="nav__text">Услуги</p></a>
-			</li>
+			<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Услуги
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="pages/services.html">3D Printing</a>
+	          <a class="dropdown-item" href="#">3D Design</a>
+	        </div>
+      	</li>
 			<li class="nav-item">
 				<a href="" class="nav-link"><p class="nav__text">Наши Работы</p></a>
 			</li>
@@ -46,7 +52,7 @@
 </nav>
 
 <!-- Header -->
-
+<div class="header__bg">
 <header class="header">
 	<div class="container py-a">
 		<div class="row">
@@ -58,7 +64,7 @@
 		</div>
 	</div>
 </header>
-
+</div>
 <!-- About -->
 
 <section class="about">
@@ -111,30 +117,48 @@
 </section>
 
 <!-- Capabilities -->
-<section class="cap">
+<!-- <section class="cap">
 	<div class="container">
 		<div class="row">
 			<h2 class="cap__title">Возможности</h2>
+	
+		</div> -->
+<div class="cap_bg">
+<section class="cap">
+<div class="cap__item">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="cap__title">Возможности</h2>
+			</div>
 		</div>
-		<div class="row justify-content-between cap__row">
+		<div class="row">
 			<div class="col-5">
 				<img src="img/cap/1.jpg" class="cap__img" alt="">
 			</div>
-			<div class="col-7 cap__content">
+			<div class="col-7 my-auto">
 				<h3 class="cap__suptitle">Концептуальный дизайн</h3>
 				<p class="cap__text">Мы используем идеи «голубого неба» и безопасно внедряем их, прокладывая путь от первоначальной концепции до готового производства.</p>
 			</div>
 		</div>
-		<div class="row justify-content-between cap__row">
+	</div>
+</div>
+<div class="cap__item">
+	<div class="container">
+		<div class="row">
 			<div class="col-5">
 				<img src="img/cap/2.jpg" class="cap__img" alt="">
 			</div>
-			<div class="col-7">
+			<div class="col-7 my-auto">
 				<h3 class="cap__suptitle">3d печать</h3>
 				<p class="cap__text">Получите точные и долговечные 3D-печатные детали за несколько дней. Загрузите файлы 3D-модели, чтобы получить автоматическое предложение, или получите бесплатное руководство эксперта от менеджера проекта.</p>
 			</div>
 		</div>
-		<div class="row justify-content-between cap__row">
+	</div>
+</div>
+<div class="cap__item">
+	<div class="container">
+		<div class="row align-items-center">
 			<div class="col-5">
 				<img src="img/cap/3.jpg" class="cap__img" alt="">
 			</div>
@@ -144,9 +168,11 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
+</div>
 
-<div class="bg">
+<div class="quote__bg">
 <!-- Quote -->
 <section class="quote">
 	<div class="container">
