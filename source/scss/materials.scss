@@ -1,0 +1,171 @@
+.materials__header {
+	background: url(../img/materials/header-materials.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 360px;
+
+	@media(max-width: 426px){
+		height: 260px;
+	}
+}
+
+.materials-about {
+	&__btn {
+		padding-top: 20px;
+	}
+
+	&__info {
+		margin-bottom: 35px;
+		
+		&:last-child {
+			padding-bottom: 30px;
+		}
+	}
+
+	&__type {
+		padding-top: 30px;
+		padding-bottom: 40px;
+		font-size: 36px;
+		cursor: pointer;
+
+		&:hover {
+			color: #32a7f9;
+		}
+	}
+
+	&__title {
+		font-size: 26px;
+		font-weight: 700;	
+	}
+
+	&__spec {
+		line-height: 0;
+	}
+
+	&__text {
+		font-size: 18px;
+
+		&-uses {
+			text-align: center;
+			display: inline-block;
+			width: 33%;
+		}
+
+		&-uses:last-child {
+			margin-bottom: 30px;
+		}
+
+		&-spec {
+			display: inline-block;
+			width: 49%;
+
+			&-left {
+				font-weight: 700;
+				text-align-last: left;
+				
+			}
+
+			&-right {
+				text-align: right;
+			}
+		}
+	}
+
+	@media(max-width: 769px){
+		&__type{
+			font-size: 30px;
+		}
+	}
+
+@media(max-width: 769px){
+		&__type{
+			font-size: 28px;
+		}
+
+		&__title {
+			font-size: 24px;
+			text-align: center;
+		}
+
+		&__text {
+			font-size: 16px;
+			&-uses {
+				width: 49%;
+				
+			}
+		}
+	}
+
+}
+
+.test {
+	display: inline-block;
+}
+
+.materials-instaquote{
+	background-color: #00acff;
+
+	&__row {
+		align-self: center;
+	}
+
+	&__img {
+		width: 444px;
+		margin: 20px;
+	}
+
+	&__title {
+		color: #fff;
+		align-self: center;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	&__btn {
+		display: block;
+		margin: 0 auto;
+	}
+
+	@media(max-width: 1025px){
+		&__img {
+			width: 430px;
+			display: block;
+			margin: 15px auto;
+		}
+
+		&__btn {
+			margin-bottom: 15px;
+		}
+	}
+
+	@media(max-width: 768px){
+		&__img {
+			width: 400px;
+		}
+	}
+
+	@media(max-width: 726px) {
+		&__img{
+			width: 330px;
+		}
+
+		&__title {
+			font-size: 24px;
+		}
+		
+	}
+}
+
+.materials-quote {
+	background-color: #fff;
+	text-align: center;
+	padding: 80px 0 140px 0;
+
+	-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);
+	clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);
+
+	&__bg {
+		background-color: #E2E8EF;
+	}
+}
