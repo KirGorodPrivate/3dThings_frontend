@@ -83,12 +83,14 @@
 	}
 
 	&__button {
-		color: #32a7f9;
-		border: 2px solid #32a7f9;
+		color: #ff6115;
+		border: 2px solid #ff6115;
 
 		&:hover {
 			color: #fff;
-			background: #208bff;
+			background: #c34b11;
+			border-color: #c34b11;
+			text-decoration: none;
 		}
 	}
 
@@ -138,7 +140,7 @@
 
 	&__suptitle {
 		font-size: 24px;
-		color: #32a7f9;
+		color: #efbc26;
 	}
 
 	&__text {
@@ -177,7 +179,7 @@
 
 	&__icon {
 		text-align: center;
-		background-color: #32a7f9;
+		background-color: #ff6115;
 		width: 35px;
 		display: block;
 		margin: 0 auto;
@@ -209,7 +211,7 @@
 		cursor: pointer;
 
 		&:hover {
-			color: #32a7f9;
+			color: #efbb25;
 		}
 	}
 	
@@ -225,14 +227,22 @@
 		margin: 75px auto;
 		font-size: 24px;
 		font-weight: 500;
+		background-color: #ff6115;
+		border-color: #ff6115;
+		color: #fff;
+
+		&:hover {
+			background-color: #c34b11;
+			border-color: #c34b11;
+		}
 	}
 
 	&__bg {
-		background-color: #1a2e44;
+		background-color: #1a202c;
 	}
 }
 
 .type-active {
-	color: #32a7f9;
+	color: #efbb25;
 	text-decoration: underline;
 }

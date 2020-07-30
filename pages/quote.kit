@@ -37,27 +37,27 @@
 		<div class="quote-form__bg">
 			<div class="quote-form__title">Provide Project Details</div>
 				<div class="quote-form__text">Complete this form to tell us about your project, and a Project Manager will</br> review and respond today.</div>
-				<form>
+				<form method="GET">
 					<div class="form-group">
-				    <label class="quote-form__label" for="exampleInputEmail1">Name</label>
-				    <input placeholder="Your Name..." type="email" class="form-control" id="InputName">
+				    <label class="quote-form__label" for="Name">Name</label>
+				    <input placeholder="Your Name..." type="text" class="form-control" id="Name">
 				  </div>
 				  <div class="form-group">
-				    <label class="quote-form__label" for="exampleInputEmail1">Email address</label>
-				    <input placeholder="Your Email..." type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+				    <label class="quote-form__label" for="Email">Email address</label>
+				    <input placeholder="Your Email..." type="email" class="form-control" id="Email" aria-describedby="emailHelp">
 				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 				  </div>
 				  <div class="form-group">
-				    <label class="quote-form__label" for="exampleInputEmail1">Phone number</label>
-				    <input placeholder="Phone number..." type="email" class="form-control" id="InputPhone">
+				    <label class="quote-form__label" for="Phone">Phone number</label>
+				    <input placeholder="Phone number..." type="tel" class="form-control" id="Phone">
 				  </div>
 				  <div class="form-group">
 						<label class="quote-form__label" for="exampleFormControlTextarea1">What do you want to create?</label>
 					   <textarea placeholder="Write a description" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 					</div>
 					<div class="form-group">
-				    <label class="quote-form__label" for="exampleInputEmail1">Do you have a deadline?</label>
-				    <input placeholder="Your deadline..." type="email" class="form-control" id="InputPhone">
+				    <label class="quote-form__label" for="Deadline">Do you have a deadline?</label>
+				    <input placeholder="Your deadline..." type="text" class="form-control" id="Deadline">
 				  </div>
 				  <div class="form-group">
 				    <label class="quote-form__label" for="exampleFormControlFile1">Add Files: Images, Drawings, etc.</label>
@@ -65,10 +65,19 @@
 				  </div>
 				  <button type="submit" class="btn btn-primary">Submit Request</button>
 				</form>
+		<!-- 		<form action="" method="GET">
+					<div class="form-group">
+				    <label class="quote-form__label">Name</label>
+				    <input type="text" name="q">
+				  </div>
+					<input type="submit" value="Save">
+				</form> -->
 		</div>
 	</div>
 </section>
 </div>
+	</body>
+	</html>
 
 <!-- @import "footer.kit" -->
 

@@ -55,7 +55,8 @@
 
 		&:hover {
 			color: #fff;
-			background: rgb(239, 188, 38, 0.4);
+			background: #efbc26;
+			text-decoration: none;
 		}
 	}
 
@@ -98,7 +99,7 @@
 	}
 
 	&__span {
-		color: #0a9df5;
+		color: #ff6115;
 		font-weight: 700;
 	}
 
@@ -150,7 +151,7 @@
 	clip-path: polygon(0 -1%, 100% -1%, 100% 92%, 0 100%);
 
 	&__bg {
-		background-color: #1a2e44;
+		background-color: #1a202c;
 	}
 
 	&__item {
@@ -216,7 +217,7 @@
 	text-align: center;
 	color: #fff;
 	padding: 80px 0 140px 0;
-	background-color: #1a2e44;
+	background-color: #1a202c;
 
 	-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);
 	clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);

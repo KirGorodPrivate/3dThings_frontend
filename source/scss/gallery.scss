@@ -1,0 +1,109 @@
+.gallery-header {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/gallery_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 87%, 0 100%);
+	clip-path: polygon(0 -1%, 100% -1%, 100% 87%, 0 100%);
+
+	&__header {
+		padding: 150px;
+		font-size: 48px;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 0;
+
+		&:after {
+			content: '';
+			display: block;
+			height: 1px;
+			width: 300px;
+			background-color: #fff;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+	}
+
+	@media(max-width: 769px) {
+		-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 100%, 0 100%);
+		clip-path: polygon(0 -1%, 100% -1%, 100% 100%, 0 100%);
+
+		&__header {
+			padding: 60px;
+			font-size: 44px;
+		}
+	}
+
+	@media(max-width:426px){
+		&__header {
+			padding: 40px;
+			font-size: 36px;
+		}
+	}
+}
+
+.gallery {
+	padding-top: 50px;
+	padding-bottom: 80px;
+	@media(max-width: 769px){
+		padding: 30px 0;
+
+	}
+
+	&-gallery {
+		background-color: #fff;
+			
+		-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 92%, 0 100%);
+		clip-path: polygon(0 -1%, 100% -1%, 100% 92%, 0 100%);
+
+		&__bg {
+			background-color: #E2E8EF;
+		}
+
+		@media(max-width: 769px){
+		-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 100%, 0 100%);
+		clip-path: polygon(0 -1%, 100% -1%, 100% 100%, 0 100%);
+	}
+	}
+
+	&__img {
+		@media(max-width: 426px) {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 33%;
+	-moz-column-width: 33%;
+	column-width: 33%; }
+	.gallery .pics {
+	-webkit-transition: all 350ms ease;
+	transition: all 350ms ease; 
+	}
+
+	.gallery .animation {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1); }
+
+	@media (max-width: 450px) {
+	.gallery {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-width: 100%;
+	-moz-column-width: 100%;
+	column-width: 100%;
+	}
+	}
+
+	@media (max-width: 400px) {
+	.btn.filter {
+	padding-left: 1.1rem;
+	padding-right: 1.1rem;
+}
+}
