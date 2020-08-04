@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0 320;0,400;0,700;1 320&display=swap" rel="stylesheet">
+	<!-- ViewPort -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- FotnAwesome -->
+	<script src="https://kit.fontawesome.com/1299eaddbb.js" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>printer</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  	<a href="index.html" class="navbar-brand nav__logo">
+		<img src="img/logo_main.png" class="navigation__logo" alt="">
+	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="navigation__items dropdown">
+	        <a class="navigation__link dropdown-toggle nav__dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Услуги
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="services.html">3D Printing</a>
+	          <a class="dropdown-item" href="design.html">3D Design</a>
+	          <a class="dropdown-item" href="materials.html">Materials</a>
+	        </div>
+      	</li>
+			<li class="navigation__items">
+				<a href="shop.html" class="navigation__link"><p class="navigation__text">Магазин</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="gallery.html" class="navigation__link"><p class="navigation__text">Галерея</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="quote.html" class="navigation__button">Сделать Заказ</a>
+			</li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="login__bg">
+  <section id="login" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-header text-white login__label">
+              <h4>
+                <i class="fas fa-sign-in-alt"></i> Login</h4>
+            </div>
+            <div class="card-body pb-0">
+              <form action="index.html">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" name="username" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="password2">Password</label>
+                  <input type="password" name="password" class="form-control" required>
+                </div>
+
+                <input type="submit" value="Login" class="btn btn-secondary btn-block login__btn">
+                <div class="login__notreg">
+                  <span>Not registered?</span>
+                  <a class="text-right" href="register.html">Register</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>	
+
+<div class="login__footer">
+<!-- Footer -->
+<footer class="footer navbar-fixed-bottom">
+	<div class="container">
+		<div class="row footer__head">
+			<div class="col-md-4 col-sm-12">
+				<a href="index.html">
+					<img src="img/logo_main.png" class="footer__logo" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 footer__resources">
+				<h4>Контакты</h4>
+				<a href="https://goo.gl/maps/QdB6qZQ8PnrQ4DtFA">Tsytadelna St, 2А, Kyiv, 02000</a>
+				<a href="tel: +380992281488">+38 (099) 228-14-88</a>
+				<a href="mailto: service@printerok.com">service@printerok.com</a>
+			</div>
+			<div class="col-md-4 col-sm-12 footer__resources">
+				<h4>Ресурсы</h4>
+				<a href="quote.html">Сделать Заказ</a>
+				<a href="login.html">Войти</a>
+				<a href="">Условия Обслуживания</a>
+				<a href="">Конфиденциальность</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 footer__copyright">
+				<p class="footer__copyright-text">© PrinterOk 3D Printing</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+</div>
+</div>
+<!-- BootStrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

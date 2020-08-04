@@ -23,11 +23,17 @@
 			display: block;
 			width: 100%;
 			height: 1px;
-			background-color: #efbc26;
+			background-color: #f0614c;
 			margin: 0 auto;
 			margin-top: 15px;
 		}
-}
+	}
+	@media(max-width: 425px) {
+			&__title {
+				font-size: 40px;
+				padding: 100px;
+			}
+		}
 }
 
 .describe {
@@ -75,6 +81,24 @@
 	&__inner {
 		margin: auto;
 	}
+
+	@media(max-width: 425px) {
+		padding-top: 50px;
+
+		&__title {
+			font-size: 40px;
+		}
+
+		&__btn {
+			display: inline-block;
+		}
+
+		&__img {
+			display: none;
+			margin: 0 auto;
+			width: 275px;
+		}
+	}
 }
 
 .applications {
@@ -94,6 +118,15 @@
 	&__suptitle {
 		color: #00acff;
 	}
+
+	@media(max-width: 425px){
+		padding-bottom: 85px;
+		text-align: center;
+
+		&__title {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .works {
@@ -102,6 +135,10 @@
 
 	&__icon-design {
 		background-color: #00acff;
+	}
+
+	@media(max-width: 425px){
+		padding-top: 45px;
 	}
 }
 

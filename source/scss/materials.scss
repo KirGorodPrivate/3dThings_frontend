@@ -28,9 +28,10 @@
 		padding-bottom: 40px;
 		font-size: 36px;
 		cursor: pointer;
+		transition: 0.3s;
 
 		&:hover {
-			color: #efbc26;
+			color: #00acff;
 		}
 	}
 
@@ -106,25 +107,31 @@
 .materials-instaquote{
 	background-color: #00acff;
 
-	&__row {
-		align-self: center;
-	}
-
 	&__img {
 		width: 444px;
 		margin: 20px;
 	}
 
 	&__title {
+		display: block;
+		margin: 0 auto;
 		color: #fff;
-		align-self: center;
-		text-align: center;
-		padding-bottom: 30px;
+		margin-top: 100px;
+		margin-bottom: 30px;
 	}
 
 	&__btn {
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
+		background-color: #fff;
+		border-color: #fff;
+		color: black;
+
+		&:hover {
+			background-color: #ff6115;
+			border-color: #ff6115;
+			color: #fff;
+		}
 	}
 
 	@media(max-width: 1025px){
@@ -162,10 +169,21 @@
 	text-align: center;
 	padding: 80px 0 140px 0;
 
-	-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);
-	clip-path: polygon(0 -1%, 100% -1%, 100% 75%, 0 100%);
+	-webkit-clip-path: polygon(0 -1%, 100% -1%, 100% 89%, 0 100%);
+	clip-path: polygon(0 -1%, 100% -1%, 100% 89%, 0 100%);
 
 	&__bg {
 		background-color: #E2E8EF;
+	}
+
+	&__btn {
+		background-color: #00acff;
+		border-color: #00acff;
+		color: #fff!important;
+
+		&:hover {
+			background-color: #85d5fb;
+			border-color: #85d5fb;
+		}
 	}
 }

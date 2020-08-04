@@ -1,0 +1,47 @@
+#login {
+	background-color: #fff!important;
+	margin-top: 40px;
+}
+
+.login {
+
+	&__label {
+		background-color: #f0614c!important;
+	}
+
+	&__btn {
+		background-color: #f0614c!important;
+		border-color: #f0614c!important;
+
+		&:hover {
+			background-color: #da2a12!important;
+			border-color: #da2a12!important;
+		}
+
+		&:active {
+			background-color: #b92511!important;
+			border-color: #b92511!important;
+			box-shadow: none!important;
+		}
+
+		&:focus {
+			background-color: #b92511!important;
+			border-color: #b92511!important;
+			box-shadow: none!important;
+		}
+	}
+
+	&__footer {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+
+	&__bg {
+		background-color: red;
+	}
+
+	&__notreg {
+		margin: 10px 0;
+	}
+}

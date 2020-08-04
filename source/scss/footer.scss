@@ -2,28 +2,19 @@
 	padding-top: 80px;
 	background-color: #E2E8EF;
 
+
+
+
 	&__head {
 		padding-bottom: 50;
 	}
 
 	&__logo {
-		width: 145px;
+		
 		transition: .3s;
 
 		&:hover {
-			background-color: #efbc26;
-			border-radius: 50%;
-		}
-	}
-
-	&__info {
-		text-align: right;
-
-		a {
-			display: block;
-			text-decoration: none;
-			color: inherit;
-			margin-bottom: 10px;
+			// make animation
 		}
 	}
 
@@ -37,7 +28,7 @@
 			transition: 0.3s;
 
 			&:hover {
-				color: #efbc26;
+				color: #f0614c;
 			}
 		}
 	}
@@ -71,6 +62,18 @@
 
 		&__info {
 			text-align: center;
+			
+			a {
+			display: block;
+			text-decoration: none;
+			color: inherit;
+			transition: 0.3s;
+
+			&:hover {
+				color: #f0614c;
+			}
+			}
+
 			&:after {
 				display: block;
 				margin: 0 auto;

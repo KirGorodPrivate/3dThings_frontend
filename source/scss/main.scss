@@ -40,29 +40,35 @@
 			margin: 20px auto;
 
 			z-index: 1;
-			background-color: #efbc26;	
+			background-color: #f0614c;	
 		}
 	}
 
 	&__button {
 		padding: 10px 25px;
-		color: #efbc26;
+		color: #f0614c;
 		background: transparent;
 
-		border: 2px solid #efbc26;
+		border: 2px solid #f0614c;
 		cursor: pointer;
 		transition: 0.3s;
 
 		&:hover {
 			color: #fff;
-			background: #efbc26;
+			background: #f0614c;
 			text-decoration: none;
 		}
 	}
 
 		@media(max-width: 767px) {
+		
+		&>div {
+			padding: 100px 0;
+			padding-top: 75px;
+		}
+
 		&__title {
-			font-size: 32	px;
+			font-size: 32px;
 		}
 	}
 }
@@ -99,7 +105,7 @@
 	}
 
 	&__span {
-		color: #ff6115;
+		color: #00acff;
 		font-weight: 700;
 	}
 
@@ -107,9 +113,28 @@
 
 	}
 
+	@media(max-width: 1200px) {
+		&__img {
+			padding-top: 20px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+
 	@media(max-width: 767px) {
+		padding-top: 50px;
+
 		&__img {
 			display: none;
+		}
+
+		&__title{
+			font-size: 28px;
+		}
+
+		&__header {
+			padding-bottom: 30px;
 		}
 	}
 }
@@ -118,7 +143,7 @@
 
 .fa-stack {
 	font-size: 20px;
-	color: #efbc26;
+	color: #00acff;
 	display: block;
 	margin: 0 auto;
 }
@@ -178,7 +203,7 @@
 	}
 
 	&__suptitle {
-		color: #efbc26;
+		color: #00acff;
 		text-transform: uppercase;
 		font-size: 22px;
 		position: relative;
@@ -203,6 +228,15 @@
 
 	@media(max-width: 768px) {
 		text-align: center;
+		
+		&__title {
+			padding-top: 0px;
+			padding-bottom: 20px;
+		}
+
+		&__item {
+			padding: 25px 0;
+		}
 
 		&__img {
 			display: block;
@@ -232,5 +266,10 @@
 
 	&__bg {
 		background-color: #e2e8ef;
+	}
+
+	@media(max-width: 768px) {
+		padding-top: 40px;
+		padding-bottom: 110px;
 	}
 }
